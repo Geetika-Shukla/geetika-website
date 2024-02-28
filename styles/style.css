@@ -1,0 +1,36 @@
+
+/*id*/
+
+#primary-heading {
+    color: hsl(258, 40%, 46%);
+}
+
+ /*class*/
+
+.link-heading {
+    font-family: "Zilla", sans-serif;
+    color:hsl(212, 11%, 35%);
+}
+
+ /*tags*/
+
+body {
+    background-image: linear-gradient(hsl(266, 38%, 84%), hsl(0, 0%, 100%));
+    height: 800px;
+    background-repeat: no-repeat;
+    font-family: "Mukta", sans-serif;
+}
+
+section {
+    width: 50%;
+    margin: 50px auto;
+}
+
+h1{
+    color: hsl(0, 100%, 50%);
+
+}
+
+p{
+    color:hsl(210, 11%, 42%);
+}
