@@ -1,35 +1,48 @@
+@font-face {
+    font-family : "Mukta";
+    src         : url("../personal-website/assets/fonts/Mukta-Regular.ttf") format("truetype");
+    font-weight : 400;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : "Mukta";
+    src         : url("../personal-website/assets/fonts/Mukta-Bold.ttf") format("truetype");
+    font-weight : 700;
+    font-style  : normal;
+}
+
 /*id*/
 
- #primary-heading {
+#primary-heading {
     color: #6246a5;
 }
 
  /*class*/
 
-.body {
+.link-heading {
     color:rgb(80, 89, 99);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
  /*tags*/
-
-h1{
-    color: red;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-p{
-    color:rgb(95, 107, 119);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 body {
     background-image: linear-gradient(#D3C5E5, white);
     height: 800px;
     background-repeat: no-repeat;
+    font-family: "Mukta", sans-serif;
 }
 
 section {
     width: 50%;
     margin: 50px auto;
+}
+
+h1{
+    color: red;
+
+}
+
+p{
+    color:rgb(95, 107, 119);
 }
