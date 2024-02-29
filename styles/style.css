@@ -3,13 +3,20 @@
 
 #primary-heading {
     color: hsl(258, 40%, 46%);
+    font-family: "Zilla", sans-serif;
 }
 
  /*class*/
 
-.link-heading {
+.secondary-heading {
     font-family: "Zilla", sans-serif;
     color:hsl(212, 11%, 35%);
+}
+
+.tertiary-heading {
+    font-family: "Zilla", sans-serif;
+    color:hsl(212, 11%, 35%);
+    margin-bottom:0;
 }
 
  /*tags*/
@@ -26,16 +33,13 @@ section {
     margin: 50px auto;
 }
 
-h1{
-    color: hsl(0, 100%, 50%);
-
-}
-
 p{
     color:hsl(210, 11%, 42%);
+    margin-top: 10px;
 }
 
 img{
     margin: 0 auto;
-    display: block;
+    display: inline-block;
+    padding-right: 20px;
 }
