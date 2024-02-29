@@ -1,26 +1,3 @@
-
-/*id*/
-
-#primary-heading {
-    color: hsl(258, 40%, 46%);
-    font-family: "Zilla", sans-serif;
-}
-
- /*class*/
-
-.secondary-heading {
-    font-family: "Zilla", sans-serif;
-    color:hsl(212, 11%, 35%);
-}
-
-.tertiary-heading {
-    font-family: "Zilla", sans-serif;
-    color:hsl(212, 11%, 35%);
-    margin-bottom:0;
-}
-
- /*tags*/
-
 body {
     background-image: linear-gradient(hsl(266, 38%, 84%), hsl(0, 0%, 100%));
     height: 800px;
@@ -31,6 +8,28 @@ body {
 section {
     width: 50%;
     margin: 50px auto;
+    display: flex;
+    flex-direction:column;
+}
+
+.project-grid{
+    display: flex;
+}
+
+#primary-heading {
+    color: hsl(258, 40%, 46%);
+    font-family: "Zilla", sans-serif;
+}
+
+.secondary-heading {
+    font-family: "Zilla", sans-serif;
+    color:hsl(212, 11%, 35%);
+}
+
+.tertiary-heading {
+    font-family: "Zilla", sans-serif;
+    color:hsl(212, 11%, 35%);
+    margin-bottom: 0;
 }
 
 p{
