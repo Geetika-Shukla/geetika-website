@@ -38,7 +38,16 @@ p{
 }
 
 img{
-    margin: 0 auto;
     display: inline-block;
     padding-right: 20px;
+}
+
+.footer {
+    height: 100px;
+    background-color: hsl(267, 92%, 90%);
+  }
+
+.wrap-column {
+    display: flex;
+    flex-direction:row;
 }
