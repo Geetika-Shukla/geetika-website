@@ -5,6 +5,35 @@ body {
     font-family: "Mukta", sans-serif;
 }
 
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right:100px;
+}
+
+.nav-tabs{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    gap: 40px;
+  }
+
+.navbar a{
+    color: hsl(212, 11%, 35%);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}  
+
+.navbar a:hover{
+    color: hsl(207, 11%, 15%);
+}
+
+
 section {
     width: 50%;
     margin: 50px auto;
