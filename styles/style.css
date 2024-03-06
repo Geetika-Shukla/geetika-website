@@ -23,12 +23,6 @@ body {
     display: block;
 }  
 
-.navbar a:hover{
-    color: hsl(207, 10%, 17%);
-    font-family: "barlow-medium", sans-serif;
-    
-}
-
 .nav-tabs{
     margin: 20px;
     padding: 10px;
@@ -36,6 +30,12 @@ body {
     flex-direction:row;
     gap: 40px;
   }
+
+.navbar a:hover{
+    color: hsl(207, 10%, 17%);
+    font-family: "barlow-medium", sans-serif;
+    
+}
 
 /*///// SECTIONS //////*/
 
@@ -47,6 +47,7 @@ body {
     font-weight: 500;
     line-height: 0px;
 }
+
 
 section {
     width: 60%;
@@ -84,7 +85,6 @@ p{
 
 img{
     display: inline-block;
-    padding-right: 20px;
 }
 
 .wrap-row {
@@ -100,7 +100,7 @@ img{
     background-color: hsl(258, 40%, 46%);
     border-radius: 4px;
     border:none;
-    height: auto;
+    height:auto;
     font-family: "barlow-medium", serif;
 }
 
@@ -108,4 +108,15 @@ img{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+}
+
+.external-links {
+    color: hsl(207, 10%, 17%);
+    text-decoration: none;
+    font-family: "barlow-regular", serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction:row;
+    justify-content: end;
+    gap: 30px;
 }

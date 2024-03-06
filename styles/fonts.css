@@ -27,6 +27,13 @@
 }
 
 @font-face {
+    font-family : "zilla-slab-light";
+    src         : url("../assets/fonts/zilla-slab/ZillaSlab-Light.ttf") format("truetype");
+    font-weight : 300;
+    font-style  : normal;
+}
+
+@font-face {
     font-family : "zilla-slab-regular";
     src         : url("../assets/fonts/zilla-slab/ZillaSlab-Regular.ttf") format("truetype");
     font-weight : 400;
