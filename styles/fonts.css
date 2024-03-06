@@ -1,26 +1,47 @@
 @font-face {
-    font-family : "Mukta";
-    src         : url("../assets/fonts/mukta/Mukta-Regular.ttf") format("truetype");
+    font-family : "barlow-light";
+    src         : url("../assets/fonts/barlow/Barlow-Light.ttf") format("truetype");
+    font-weight : 300;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : "barlow-regular";
+    src         : url("../assets/fonts/barlow/Barlow-Regular.ttf") format("truetype");
     font-weight : 400;
     font-style  : normal;
 }
 
 @font-face {
-    font-family : "Mukta";
-    src         : url("../assets/fonts/mukta/Mukta-Bold.ttf") format("truetype");
-    font-weight : 700;
+    font-family : "barlow-medium";
+    src         : url("../assets/fonts/barlow/Barlow-Medium.ttf") format("truetype");
+    font-weight : 500;
     font-style  : normal;
 }
 
 @font-face {
-    font-family : "Zilla";
+    font-family : "barlow-semibold";
+    src         : url("../assets/fonts/barlow/Barlow-SemiBold.ttf") format("truetype");
+    font-weight : 600;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : "zilla-slab-regular";
     src         : url("../assets/fonts/zilla-slab/ZillaSlab-Regular.ttf") format("truetype");
     font-weight : 400;
     font-style  : normal;
 }
 
 @font-face {
-    font-family : "Zilla";
+    font-family : "zilla-slab-medium";
+    src         : url("../assets/fonts/zilla-slab/ZillaSlab-Medium.ttf") format("truetype");
+    font-weight : 500;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : "zilla-slab-bold";
     src         : url("../assets/fonts/zilla-slab/ZillaSlab-Bold.ttf") format("truetype");
     font-weight : 700;
     font-style  : normal;

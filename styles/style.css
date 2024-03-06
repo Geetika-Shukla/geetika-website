@@ -2,8 +2,10 @@ body {
     background-image: linear-gradient(hsl(266, 38%, 84%), hsl(0, 0%, 100%));
     height: 800px;
     background-repeat: no-repeat;
-    font-family: "Mukta", sans-serif;
+    font-family: "barlow-regular", sans-serif;
 }
+
+/*///// NAV //////*/
 
 .navbar{
     display: flex;
@@ -14,14 +16,6 @@ body {
     margin-right:100px;
 }
 
-.nav-tabs{
-    margin: 20px;
-    padding: 10px;
-    display: flex;
-    flex-direction:row;
-    gap: 40px;
-  }
-
 .navbar a{
     color: hsl(212, 11%, 35%);
     text-decoration: none;
@@ -30,13 +24,33 @@ body {
 }  
 
 .navbar a:hover{
-    color: hsl(207, 11%, 15%);
+    color: hsl(207, 10%, 17%);
+    font-family: "barlow-medium", sans-serif;
+    
 }
 
+.nav-tabs{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    gap: 40px;
+  }
+
+/*///// SECTIONS //////*/
+
+
+.bio-heading-title{
+    color: hsl(258, 40%, 46%);
+    font-family: "zilla-slab-medium", serif;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 0px;
+}
 
 section {
-    width: 50%;
-    margin: 50px auto;
+    width: 60%;
+    margin: 30px auto;
     display: flex;
     flex-direction:column;
 }
@@ -48,16 +62,16 @@ section {
 
 #primary-heading {
     color: hsl(258, 40%, 46%);
-    font-family: "Zilla", sans-serif;
+    font-family: "zilla-slab-medium", serif;
 }
 
 .secondary-heading {
-    font-family: "Zilla", sans-serif;
+    font-family: "zilla-slab-medium", serif;
     color:hsl(212, 11%, 35%);
 }
 
 .tertiary-heading {
-    font-family: "Zilla", sans-serif;
+    font-family: "zilla-slab-regular", serif;
     color:hsl(212, 11%, 35%);
     margin-bottom: 0;
 }
@@ -65,6 +79,7 @@ section {
 p{
     color:hsl(210, 11%, 42%);
     margin-top: 10px;
+    font-size: 18px;
 }
 
 img{
@@ -72,30 +87,31 @@ img{
     padding-right: 20px;
 }
 
-.footer {
-    height: 120px;
-    background-color: hsl(267, 92%, 90%);
-    align-content:center;
-}
-
 .wrap-row {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    /* align-items:center; */
+    gap: 80px;
 }
 
 .primary-button {
-    padding: 8px 8px;
+    padding: 12px 12px;
     color: hsl(0, 0%, 96%);
-    background-color: hsl(271, 76%, 53%);
+    background-color: hsl(258, 40%, 46%);
     border-radius: 4px;
     border:none;
-    text-align: center;
+    height: auto;
+    font-family: "barlow-medium", serif;
 }
 
 .right-column {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+}
+
+.footer {
+    height: 120px;
+    background-color: hsl(267, 92%, 90%);
+    align-content:center;
 }
