@@ -17,7 +17,7 @@ body {
 }
 
 .navbar a{
-    color: hsl(212, 11%, 35%);
+    color:hsl(208, 12%, 32%);
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -77,7 +77,7 @@ section {
 }
 
 p{
-    color:hsl(210, 11%, 42%);
+    color:hsl(208, 12%, 32%);
     margin-top: 10px;
     font-size: 18px;
 }
@@ -108,10 +108,4 @@ img{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-}
-
-.footer {
-    height: 120px;
-    background-color: hsl(267, 92%, 90%);
-    align-content:center;
 }
