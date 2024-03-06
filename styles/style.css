@@ -111,12 +111,15 @@ img{
 }
 
 .external-links {
-    color: hsl(207, 10%, 17%);
-    text-decoration: none;
-    font-family: "barlow-regular", serif;
-    font-size: 18px;
     display: flex;
     flex-direction:row;
     justify-content: end;
-    gap: 30px;
+    gap: 60px;
+}
+
+.links{
+    color: hsl(207, 10%, 17%);
+    text-decoration: none;
+    font-family: "barlow-regular", serif;
+    font-size: 16px;
 }
