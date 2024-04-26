@@ -148,7 +148,7 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 30px;
     height: 200px;
 }
@@ -184,7 +184,6 @@ img {
     display: inline-block;
 }
 
-
 .primary-button {
     padding: 12px 12px;
     color: hsl(0, 0%, 96%);
@@ -216,9 +215,26 @@ img {
 
 /*/////GRID//////*/
 
+.category-list {
+    position: relative;
+    text-align: end;
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #FAF8F5;
+}
+
 .project-list {
     position: relative;
     text-align: end;
+    height: 200px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: #FAF8F5;
+}
+
+.category-list h2:hover {
+    color: #9D7549;
 }
 
 .project-list h2:hover {
