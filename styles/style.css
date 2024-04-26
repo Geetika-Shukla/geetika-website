@@ -45,7 +45,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 320px;
+    height: 280px;
 }
 
 .project-hero {
@@ -235,4 +235,16 @@ img {
     position: absolute;
     bottom: 18px;
     right: 0px;
+}
+
+.footer-links {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
 }
