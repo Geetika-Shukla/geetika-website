@@ -13,7 +13,8 @@ body {
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 20px;
+    margin-top: 30px;
+    height:100px;
     position: sticky;
 }
 
@@ -45,7 +46,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 280px;
+    height: 270px;
 }
 
 .project-hero {
@@ -215,22 +216,32 @@ img {
 
 /*/////GRID//////*/
 
-.category-list {
+.category-thumbnail {
     position: relative;
-    text-align: end;
-    height: 200px;
     width: 200px;
+    height: 200px;
+    overflow: hidden;
+    text-align: end;
     border-radius: 30px;
     background-color: #FAF8F5;
 }
 
-.project-list {
+.project-thumbnail {
     position: relative;
-    text-align: end;
-    height: 200px;
     width: 400px;
+    height: 200px;
+    overflow: hidden;
+    text-align: end;
     border-radius: 30px;
     background-color: #FAF8F5;
+}
+
+.category-thumbnail-image {
+    width: 100%;
+}
+
+.project-thumbnail-image {
+    width: 100%;
 }
 
 .category-list h2:hover {
