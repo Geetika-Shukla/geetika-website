@@ -145,20 +145,32 @@ section {
     flex-direction: row;
 }
 
+ul {
+    list-style-type: none;
+    color: hsl(208, 12%, 32%);
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+h5 {
+    color: hsl(210, 5%, 45%);
+}
+
 .wrap-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 30px;
-    height: 200px;
+    text-align: center;
 }
 
 .project-row {
     display: flex;
     flex-direction: row;
-    gap: 30px;
     flex-wrap: nowrap;
+    gap: 200px;
 }
 
 .project-col {
