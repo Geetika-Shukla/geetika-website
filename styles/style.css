@@ -161,8 +161,7 @@ h5 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 30px;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -179,6 +178,16 @@ h5 {
     gap: 30px;
     align-items: end;
     flex-wrap: nowrap;
+}
+
+.type-wrap-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 122px;
+    height: 350px;
+    align-items: center ;
 }
 
 a {
@@ -275,6 +284,13 @@ img {
     bottom: 18px;
     right: 0px;
 }
+
+.type-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
 
 .footer-links {
     position: absolute;
