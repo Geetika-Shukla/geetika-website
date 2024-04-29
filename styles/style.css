@@ -161,14 +161,15 @@ h5 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: center;
+    row-gap: 50px;
 }
 
 .project-row {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -300,13 +301,12 @@ img {
 
 
 .footer-links {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    position: sticky;
+    margin-right: 100px;
+    margin-top: 80px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     padding: 40px;
     gap: 40px;
-    margin-right: 40px;
-    margin-top: 80px;
+
 }
