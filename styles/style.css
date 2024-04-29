@@ -194,8 +194,7 @@ h5 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 122px;
-    height: 350px;
-    align-items: center ;
+    align-items: center;
 }
 
 a {
