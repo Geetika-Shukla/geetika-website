@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 30px;
+    margin-top: 20px;
     height:100px;
     position: sticky;
 }
@@ -46,7 +46,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 290px;
+    height: 280px;
 }
 
 .project-hero {
@@ -173,6 +173,11 @@ ul {
 h5 {
     color: hsl(210, 5%, 45%);
 }
+
+h4 {
+    color: hsl(210, 5%, 45%);
+}
+
 
 mark {
     background: cyan;
@@ -340,10 +345,19 @@ img {
 
 .footer-links {
     position: sticky;
-    margin-right: 100px;
-    margin-top: 80px;
     display: flex;
-    flex-direction: row-reverse;
-    padding: 40px;
-    gap: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.footer-logos {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-content: center;
+}
+
