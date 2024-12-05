@@ -117,21 +117,21 @@ body {
     width: 100%;
 }
 
-.hobbies-vertical {
-    display:flex ;
-    flex-direction: column;
-    gap: 40px;
-    max-width: 270px;
-    align-items: center;
-    text-align: center;
-    border-radius: 30px;
-}
 
 .hobbies-row {
     display:flex ;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 4vh;
+}
+
+.rounded-photos {
+    position: relative;
+    height: 36vh;
+    width: auto;
+    overflow: hidden;
+    border-radius: 24px;
 }
 
 
@@ -177,6 +177,11 @@ h5 {
 h4 {
     color: hsl(210, 5%, 45%);
 }
+
+h2 {
+    color: hsl(0, 0%, 33%);
+}
+
 
 
 mark {
@@ -247,6 +252,7 @@ p {
     margin-top: 10px;
     font-size: 18px;
     line-height: 120%;
+    display: flex;
 }
 
 p b {
@@ -358,6 +364,5 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    align-content: center;
 }
 
