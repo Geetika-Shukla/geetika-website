@@ -113,23 +113,27 @@ body {
     width: 100%;
 }
 
-
 .hobbies-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    row-gap: 4vh;
+}
+
+.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    justify-content: space-evenly;
 }
 
 .rounded-photos {
     position: relative;
-    height: 36vh;
+    height: 40vh;
     width: auto;
     overflow: hidden;
     border-radius: 24px;
+    padding: 0.5vw;
 }
-
 
 
 /*/////COMMON//////*/
@@ -269,7 +273,6 @@ img {
     font-family: "barlow-medium", serif;
 }
 
-
 /*/////LINKS//////*/
 
 .external-links {
@@ -405,6 +408,7 @@ img {
         margin-right: 10vw;
         gap: 36px;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -452,6 +456,12 @@ img {
         margin-right: 10vw;
         gap: 36px;
     }
+
+    .rounded-photos {
+        height: 36vh;
+        border-radius: 12px;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -494,4 +504,10 @@ img {
         row-gap: 12px;
         text-align: center;
     }
+
+    .rounded-photos {
+        height: 36vh;
+        border-radius: 12px;
+    }
+
 }
