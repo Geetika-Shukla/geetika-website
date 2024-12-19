@@ -107,6 +107,11 @@ body {
 
 .full-width {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 50px;
 }
 
 .full-width img {
@@ -449,6 +454,15 @@ img {
         transform: scale(1.5);
     }
 
+    .project-col-start img {
+        width: 100%;
+        transform: scale(1.2);
+    }
+
+    .project-col-start {
+        gap: 100px;
+    }
+
 }
 
 /*/////TABLETS//////*/
@@ -515,6 +529,14 @@ img {
         transform: scale(1.5);
     }
 
+    .project-col-start img {
+        width: 100%;
+        transform: scale(1.2);
+    }
+
+    .project-col-start {
+        gap: 80px;
+    }
 }
 
 /*/////MOBILES//////*/
@@ -541,7 +563,6 @@ img {
     .full-width img {
         transform: scale(1.5);
     }
-
 
     section {
         margin: 20px auto;
@@ -584,5 +605,14 @@ img {
     .type-page-image {
         width: 64px;
         height: 64px;
+    }
+
+    .project-col-start img {
+        width: 100%;
+        transform: scale(1.5);
+    }
+
+    .project-col-start {
+        gap: 110px;
     }
 }
