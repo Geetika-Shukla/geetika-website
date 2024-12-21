@@ -75,7 +75,7 @@ body {
 
 .center-align-items {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     max-width: 280px;
 }
 
@@ -271,6 +271,7 @@ mark {
     gap: 122px;
     align-items: center;
 }
+
 
 a {
     text-decoration: none;
