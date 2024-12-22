@@ -104,6 +104,17 @@ body {
     align-self: flex-end;
 }
 
+.content-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-column {
+    display: flex;
+    flex-direction: column;
+}
+
 .hero-div-gap {
     display: flex;
     flex-direction: row;
@@ -285,7 +296,8 @@ p {
 }
 
 p b {
-    color: #ec008c;
+    color: #9D7549;
+    ;
 }
 
 img {
