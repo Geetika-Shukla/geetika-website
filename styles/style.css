@@ -79,8 +79,6 @@ body {
     max-width: 280px;
 }
 
-
-
 .bottom-align-items {
     display: flex;
     flex-direction: column;
@@ -595,11 +593,15 @@ img {
     }
 
     .top-align-items {
-        height: auto;
+        min-height: 120px;
     }
 
     .center-align-items {
         max-height: auto;
+    }
+
+    .center-align-items img {
+        display: none;
     }
 
     .category-thumbnail {
