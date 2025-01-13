@@ -336,6 +336,29 @@ img {
     justify-content: space-evenly;
 }
 
+.project-scroll-container img {
+    width: 800px;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+
+.project-full-width {
+    width: 100%;
+}
+
+.project-half-width {
+    width: 50%;
+}
+
+.project-one-third-width {
+    width: 33%;
+}
+
+.project-two-images img {
+    width: 418px;
+    padding: 30px;
+}
+
 .pointer-card {
     position: relative;
     display: flex;
