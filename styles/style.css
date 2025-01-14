@@ -675,7 +675,7 @@ img {
     }
 
     .top-align-items {
-        min-height: 120px;
+        min-height: 240px;
     }
 
     .center-align-items {
@@ -696,8 +696,11 @@ img {
         margin-bottom: 48px;
         display: flex;
         flex-direction: column;
-        row-gap: 12px;
         text-align: center;
+    }
+
+    .footer-logos {
+        justify-content: center;
     }
 
     .rounded-photos {
@@ -768,6 +771,11 @@ img {
 
     div {
         width: 400px;
+    }
+
+    h4 {
+        width: 80vw;
+        text-align: center;
     }
 
     .project-two-images img {
