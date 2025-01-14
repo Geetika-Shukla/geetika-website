@@ -773,6 +773,11 @@ img {
         text-align: center;
     }
 
+    .project-two-images {
+        display: flex;
+        flex-direction: column;
+    }
+
     .project-two-images img {
         width: 80vw;
         padding: 0px;
@@ -958,6 +963,11 @@ img {
     h4 {
         width: 80vw;
         text-align: center;
+    }
+
+    .project-two-images {
+        display: flex;
+        flex-direction: column;
     }
 
     .project-two-images img {
